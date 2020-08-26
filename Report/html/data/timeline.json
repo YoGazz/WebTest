@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "zhangbijiangdeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "3828-MainThread",
+      "children" : [ {
+        "name" : "test_login[admin-Zbj2495550]",
+        "uid" : "d8722b53c63c686e",
+        "parentUid" : "0049387da397a1ea5da6761ba21dd492",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598461741149,
+          "stop" : 1598461742928,
+          "duration" : 1779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Zbj2495550'", "'admin'" ]
+      }, {
+        "name" : "test_login[admin-Zbj2495550.1]",
+        "uid" : "635fc669a6a41250",
+        "parentUid" : "0049387da397a1ea5da6761ba21dd492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598461735135,
+          "stop" : 1598461736651,
+          "duration" : 1516
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Zbj2495550.'", "'admin'" ]
+      }, {
+        "name" : "test_login[admin-Zbj2495550.0]",
+        "uid" : "2b04d2338c0c4b0c",
+        "parentUid" : "0049387da397a1ea5da6761ba21dd492",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598461729712,
+          "stop" : 1598461731273,
+          "duration" : 1561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Zbj2495550.'", "'admin'" ]
+      } ],
+      "uid" : "0049387da397a1ea5da6761ba21dd492"
+    } ],
+    "uid" : "95109ca19d20f852367719f2c885f51a"
+  } ]
+}

@@ -1,0 +1,52 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "输入用户名密码，登录",
+      "children" : [ {
+        "name" : "test_login[admin-Zbj2495550.0]",
+        "uid" : "2b04d2338c0c4b0c",
+        "parentUid" : "c9c5064f411b089f8424d00f16b8a044",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598461729712,
+          "stop" : 1598461731273,
+          "duration" : 1561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Zbj2495550.'", "'admin'" ]
+      }, {
+        "name" : "test_login[admin-Zbj2495550.1]",
+        "uid" : "635fc669a6a41250",
+        "parentUid" : "c9c5064f411b089f8424d00f16b8a044",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598461735135,
+          "stop" : 1598461736651,
+          "duration" : 1516
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Zbj2495550.'", "'admin'" ]
+      }, {
+        "name" : "test_login[admin-Zbj2495550]",
+        "uid" : "d8722b53c63c686e",
+        "parentUid" : "c9c5064f411b089f8424d00f16b8a044",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598461741149,
+          "stop" : 1598461742928,
+          "duration" : 1779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Zbj2495550'", "'admin'" ]
+      } ],
+      "uid" : "c9c5064f411b089f8424d00f16b8a044"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  } ]
+}

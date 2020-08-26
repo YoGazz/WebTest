@@ -1,0 +1,11 @@
+INFO     root:logger.py:46 登录模块--登录功能--:查找元素:('css selector', '#account')
+INFO     root:logger.py:46 登录模块--登录功能--:元素('css selector', '#account')中输入admin
+INFO     root:logger.py:46 登录模块--登录功能--:查找元素:('css selector', '[name="password"]')
+INFO     root:logger.py:46 登录模块--登录功能--:元素('css selector', '[name="password"]')中输入Zbj2495550
+INFO     root:logger.py:46 登录模块--登录功能--:查找元素:('css selector', '#keepLoginon')
+INFO     root:logger.py:46 登录模块--登录功能--:点击元素('css selector', '#keepLoginon')
+INFO     root:logger.py:46 登录模块--登录功能--:查找元素:('css selector', '#submit')
+INFO     root:logger.py:46 登录模块--登录功能--:点击元素('css selector', '#submit')
+INFO     root:logger.py:46 登录模块--登录功能--:查找元素:('css selector', '#userMenu > a')
+ERROR    root:logger.py:52 查找元素失败
+ERROR    root:logger.py:52 截图出现异常，[Errno 21] Is a directory: '/Users/zhangbijiang/Documents/MyStudy/ZenataoProject/Screenshots/'

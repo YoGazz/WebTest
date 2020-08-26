@@ -1,0 +1,11 @@
+2020-08-27 00:43:15,845 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '#account')
+2020-08-27 00:43:15,855 - logger.py -  INFO - 登录模块--登录功能--:元素('css selector', '#account')中输入admin
+2020-08-27 00:43:15,953 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '[name="password"]')
+2020-08-27 00:43:15,961 - logger.py -  INFO - 登录模块--登录功能--:元素('css selector', '[name="password"]')中输入Zbj2495550
+2020-08-27 00:43:16,056 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '#keepLoginon')
+2020-08-27 00:43:16,064 - logger.py -  INFO - 登录模块--登录功能--:点击元素('css selector', '#keepLoginon')
+2020-08-27 00:43:16,118 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '#submit')
+2020-08-27 00:43:16,203 - logger.py -  INFO - 登录模块--登录功能--:点击元素('css selector', '#submit')
+2020-08-27 00:43:16,248 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '#userMenu > a')
+2020-08-27 00:43:17,276 - logger.py -  ERROR - 查找元素失败
+2020-08-27 00:43:17,563 - logger.py -  INFO - 开始截图保存，保存路径/Users/zhangbijiang/Documents/MyStudy/ZenataoProject/Screenshots/

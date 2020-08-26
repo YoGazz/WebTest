@@ -1,0 +1,85 @@
+{
+  "uid" : "a11ce986283655ee",
+  "name" : "test_login[admin-Zbj2495550.1]",
+  "fullName" : "TestCase.test_login.TestLogin#test_login[admin-Zbj2495550.1]",
+  "historyId" : "18f2c5063a189df30903143550402d55",
+  "time" : {
+    "start" : 1598461530670,
+    "stop" : 1598461532389,
+    "duration" : 1719
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "30594a05a53a9579",
+      "name" : "log",
+      "source" : "30594a05a53a9579.txt",
+      "type" : "text/plain",
+      "size" : 928
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "输入用户名密码，登录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "zhangbijiangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "3740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'Zbj2495550.'"
+  }, {
+    "name" : "user",
+    "value" : "'admin'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a11ce986283655ee.json",
+  "parameterValues" : [ "'Zbj2495550.'", "'admin'" ]
+}
