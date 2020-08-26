@@ -5,12 +5,13 @@
 
 from selenium import webdriver
 from Page.loginpage import LoginPage
+from Common.readyaml import ReadYaml
 import pytest
-import yaml
 import allure
 
-with open('./Data/login.yaml',encoding='utf_8') as f:
-    Logindata = yaml.safe_load(f)
+# with open('./Data/login.yaml',encoding='utf_8') as f:
+#     Logindata = yaml.safe_load(f)
+
 
 
 @allure.feature('登录模块')
@@ -18,6 +19,7 @@ class TestLogin:
     '''
     测试登录功能
     '''
+    ready = ReadYaml('login.yaml')
     def setup(self):
         self.driver = webdriver.Chrome()
         self.driver.get('http://58.87.64.140:8088/zentao/user-login-L3plbnRhby8=.html')
@@ -33,7 +35,7 @@ class TestLogin:
     # ])
     @allure.severity('blocker')
     @allure.story('输入用户名密码，登录')
-    @pytest.mark.parametrize('user,password',Logindata)
+    @pytest.mark.parametrize('user,password',ready.get_yaml_data())
     def test_login(self,user,password):
         self.loginzentao.login(user,password)
         result = self.loginzentao.login_result()

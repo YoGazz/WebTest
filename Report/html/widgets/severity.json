@@ -1,0 +1,31 @@
+[ {
+  "uid" : "afa87f11c7afee60",
+  "name" : "test_login[admin-Zbj2495550]",
+  "time" : {
+    "start" : 1598464978455,
+    "stop" : 1598464980093,
+    "duration" : 1638
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "8ee4a32307d7ece9",
+  "name" : "test_login[admin-Zbj2495550.1]",
+  "time" : {
+    "start" : 1598464973631,
+    "stop" : 1598464974982,
+    "duration" : 1351
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "be491e548e396f00",
+  "name" : "test_login[admin-Zbj2495550.0]",
+  "time" : {
+    "start" : 1598464968927,
+    "stop" : 1598464970425,
+    "duration" : 1498
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

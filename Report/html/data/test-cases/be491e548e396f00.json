@@ -1,0 +1,103 @@
+{
+  "uid" : "be491e548e396f00",
+  "name" : "test_login[admin-Zbj2495550.0]",
+  "fullName" : "TestCase.test_login.TestLogin#test_login[admin-Zbj2495550.0]",
+  "historyId" : "c714b5d88e71524b248f5ae8b29152af",
+  "time" : {
+    "start" : 1598464968927,
+    "stop" : 1598464970425,
+    "duration" : 1498
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d96a5d65af9f6f9e",
+      "name" : "log",
+      "source" : "d96a5d65af9f6f9e.txt",
+      "type" : "text/plain",
+      "size" : 928
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "输入用户名密码，登录"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "zhangbijiangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "5072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'Zbj2495550.'"
+  }, {
+    "name" : "user",
+    "value" : "'admin'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "9b9de230f6ef4999",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598464870984,
+        "stop" : 1598464872329,
+        "duration" : 1345
+      }
+    }, {
+      "uid" : "560969426d270f0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598464772330,
+        "stop" : 1598464773696,
+        "duration" : 1366
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be491e548e396f00.json",
+  "parameterValues" : [ "'Zbj2495550.'", "'admin'" ]
+}

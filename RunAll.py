@@ -11,4 +11,5 @@ import os
 if __name__ == '__main__':
     args = ['-s', '--alluredir', './Report/xml']
     pytest.main(args)
+    os.system(f'cp environment.properties Report/xml/environment.properties')
     os.system(f'allure generate ./Report/xml -o ./Report/html --clean')

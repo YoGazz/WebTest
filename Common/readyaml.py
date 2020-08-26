@@ -3,6 +3,9 @@
 #@Author    : Sun
 #@File      :readyaml.py
 
+'''
+封装读取yanl文件方法
+'''
 
 import os
 import yaml

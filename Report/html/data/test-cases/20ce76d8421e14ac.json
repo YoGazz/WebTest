@@ -1,0 +1,95 @@
+{
+  "uid" : "20ce76d8421e14ac",
+  "name" : "test_login[admin-Zbj2495550]",
+  "fullName" : "TestCase.test_login.TestLogin#test_login[admin-Zbj2495550]",
+  "historyId" : "3885738a70da1d8e3025c171c0c992d0",
+  "time" : {
+    "start" : 1598464781860,
+    "stop" : 1598464783500,
+    "duration" : 1640
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <TestCase.test_login.TestLogin object at 0x105b62588>, user = 'admin'\npassword = 'Zbj2495550'\n\n    @allure.severity('blocker')\n    @allure.story('输入用户名密码，登录')\n    @pytest.mark.parametrize('user,password',ready.get_yaml_data())\n    def test_login(self,user,password):\n        self.loginzentao.login(user,password)\n        result = self.loginzentao.login_result()\n        print(f'获取到的结果是{result}')\n>       assert result\nE       assert False\n\nTestCase/test_login.py:43: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <TestCase.test_login.TestLogin object at 0x105b62588>, user = 'admin'\npassword = 'Zbj2495550'\n\n    @allure.severity('blocker')\n    @allure.story('输入用户名密码，登录')\n    @pytest.mark.parametrize('user,password',ready.get_yaml_data())\n    def test_login(self,user,password):\n        self.loginzentao.login(user,password)\n        result = self.loginzentao.login_result()\n        print(f'获取到的结果是{result}')\n>       assert result\nE       assert False\n\nTestCase/test_login.py:43: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a43696fb62530c09",
+      "name" : "登录模块--登录功能--",
+      "source" : "a43696fb62530c09.png",
+      "type" : "image/png",
+      "size" : 38226
+    }, {
+      "uid" : "d06a51c352bfe637",
+      "name" : "log",
+      "source" : "d06a51c352bfe637.txt",
+      "type" : "text/plain",
+      "size" : 1099
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "输入用户名密码，登录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "zhangbijiangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "4875-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'Zbj2495550'"
+  }, {
+    "name" : "user",
+    "value" : "'admin'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20ce76d8421e14ac.json",
+  "parameterValues" : [ "'Zbj2495550'", "'admin'" ]
+}

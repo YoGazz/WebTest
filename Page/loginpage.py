@@ -4,7 +4,7 @@
 #@File      :loginpage.py
 
 from selenium import webdriver
-from Base.base import BasePage
+from Common.base import BasePage
 from selenium.webdriver.common.by import By
 
 class LoginPage(BasePage):
