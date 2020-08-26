@@ -1,9 +1,0 @@
-2020-08-27 00:39:08,728 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '#account')
-2020-08-27 00:39:08,741 - logger.py -  INFO - 登录模块--登录功能--:元素('css selector', '#account')中输入admin
-2020-08-27 00:39:08,824 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '[name="password"]')
-2020-08-27 00:39:08,832 - logger.py -  INFO - 登录模块--登录功能--:元素('css selector', '[name="password"]')中输入Zbj2495550.
-2020-08-27 00:39:08,909 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '#keepLoginon')
-2020-08-27 00:39:08,921 - logger.py -  INFO - 登录模块--登录功能--:点击元素('css selector', '#keepLoginon')
-2020-08-27 00:39:08,983 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '#submit')
-2020-08-27 00:39:09,037 - logger.py -  INFO - 登录模块--登录功能--:点击元素('css selector', '#submit')
-2020-08-27 00:39:09,082 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '#userMenu > a')
