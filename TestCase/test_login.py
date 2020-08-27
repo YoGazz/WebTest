@@ -28,6 +28,11 @@ class TestLogin:
     def teardown(self):
         self.driver.quit()
 
+    # @pytest.fixture(scope='function',autouse=True)
+    # def open_index(self,drivers):
+    #     self.loginzentao = LoginPage(drivers)
+    #     self.loginzentao.get_url('http://58.87.64.140:8088/zentao/user-login-L3plbnRhby8=.html')
+
     # @pytest.mark.parametrize('user,password',[
     #     ('admin','1234'),
     #     ('admin','45678'),

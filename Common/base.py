@@ -12,7 +12,14 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 from Common.logger import Mylog
+
+
+"""
+selenium基类
+本文件存放了selenium基类的封装方法
+"""
 
 
 class BasePage:
@@ -28,6 +35,17 @@ class BasePage:
         self.driver = driver
         self.time = 10
         self.timeout = 1
+
+    def get_url(self, url):
+        """打开网址并验证"""
+        self.driver.maximize_window()
+        self.driver.set_page_load_timeout(60)
+        try:
+            self.driver.get(url)
+            self.driver.implicitly_wait(10)
+            self.log.info("打开网页：%s" % url)
+        except TimeoutException:
+            raise TimeoutException("打开%s超时请检查网络或网址服务器" % url)
 
     def save_screenshot(self,doc=""):
         """
