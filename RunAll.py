@@ -13,7 +13,7 @@ from Config.conf import HTML_PATH
 if __name__ == '__main__':
     args = ['-s','-q']
     pytest.main(args)
-    args = ['-s', '--alluredir', XML_PATH]
+    # args = ['-s', '--alluredir', XML_PATH]
     # pytest.main(args)
     # os.system(f'cp environment.properties {XML_PATH}')
     # os.system(f'allure generate {XML_PATH} -o {HTML_PATH} --clean')
