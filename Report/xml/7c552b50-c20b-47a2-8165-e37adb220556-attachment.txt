@@ -1,0 +1,16 @@
+INFO     root:logger.py:47 打开网页：http://58.87.64.140:8088/zentao/user-login.html
+INFO     root:logger.py:47 登录模块--登录功能--:查找元素:('css selector', '#account')
+INFO     root:logger.py:47 登录模块--登录功能--:元素('css selector', '#account')中输入admin
+INFO     root:logger.py:47 登录模块--登录功能--:查找元素:('css selector', '[name="password"]')
+INFO     root:logger.py:47 登录模块--登录功能--:元素('css selector', '[name="password"]')中输入Zbj2495550.
+INFO     root:logger.py:47 登录模块--登录功能--:查找元素:('css selector', '#keepLoginon')
+INFO     root:logger.py:47 登录模块--登录功能--:点击元素('css selector', '#keepLoginon')
+INFO     root:logger.py:47 登录模块--登录功能--:查找元素:('css selector', '#submit')
+INFO     root:logger.py:47 登录模块--登录功能--:点击元素('css selector', '#submit')
+INFO     root:logger.py:47 测试模块--提交Bug功能--:查找元素:('xpath', '//*[@id="mainmenu"]/ul/li[4]/a')
+INFO     root:logger.py:47 测试模块--提交Bug功能--:点击元素('xpath', '//*[@id="mainmenu"]/ul/li[4]/a')
+INFO     root:logger.py:47 测试模块--提交Bug功能--:查找元素:('xpath', '//*[@id="modulemenu"]/ul/li[4]/a')
+INFO     root:logger.py:47 测试模块--提交Bug功能--:点击元素('xpath', '//*[@id="modulemenu"]/ul/li[4]/a')
+INFO     root:logger.py:47 测试模块--提交Bug功能--:查找元素:('css selector', '.btn btn-primary')
+ERROR    root:logger.py:53 查找元素失败
+INFO     root:logger.py:47 开始截图保存，保存路径/Users/zhangbijiang/Documents/MyStudy/ZenataoProject/Screenshots/

@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCase",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "test_login[admin-Zbj2495550.0]",
+        "uid" : "380f700c3264e36a",
+        "parentUid" : "947fd64009aa32c6799c8651a53e1cd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598632178022,
+          "stop" : 1598632180447,
+          "duration" : 2425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Zbj2495550.'", "'admin'" ]
+      }, {
+        "name" : "test_login[admin-Zbj2495550.1]",
+        "uid" : "e616fdf9df58dfcf",
+        "parentUid" : "947fd64009aa32c6799c8651a53e1cd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598632184065,
+          "stop" : 1598632185650,
+          "duration" : 1585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Zbj2495550.'", "'admin'" ]
+      }, {
+        "name" : "test_login[admin-Zbj2495550]",
+        "uid" : "4e408a103e13f8a5",
+        "parentUid" : "947fd64009aa32c6799c8651a53e1cd1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598632189501,
+          "stop" : 1598632191158,
+          "duration" : 1657
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'Zbj2495550'", "'admin'" ]
+      } ],
+      "uid" : "947fd64009aa32c6799c8651a53e1cd1"
+    }, {
+      "name" : "test_ceshi.test_submit_bug",
+      "children" : [ {
+        "name" : "test_submitbug",
+        "uid" : "6eed681deda466e4",
+        "parentUid" : "fe4e3bab4e5276a887e07c6031f435c8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598632194816,
+          "stop" : 1598632207773,
+          "duration" : 12957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "test_ceshi.test_submit_bug"
+    } ],
+    "uid" : "9fa14e2db0d1ecbd3a4c5f0825d2ac34"
+  } ]
+}
