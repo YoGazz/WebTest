@@ -6,6 +6,7 @@
 from selenium import webdriver
 from Page.loginpage import LoginPage
 from Common.readyaml import ReadYaml
+from Common.readconfig import ini
 import pytest
 import allure
 
@@ -22,7 +23,7 @@ class TestLogin:
     ready = ReadYaml('login.yaml')
     def setup(self):
         self.driver = webdriver.Chrome()
-        self.driver.get('http://58.87.64.140:8088/zentao/user-login-L3plbnRhby8=.html')
+        self.driver.get(ini.url)
         self.loginzentao = LoginPage(self.driver)
 
     def teardown(self):

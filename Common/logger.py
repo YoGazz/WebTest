@@ -14,16 +14,17 @@
 import logging
 import os
 import time
+from Config.conf import LOG_PATH
 
-curpath = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-logpath = os.path.join(curpath,'Log')
-print(logpath)
-if not os.path.exists(logpath):os.mkdir(logpath)
+# curpath = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+# logpath = os.path.join(curpath,'Log')
+# print(logpath)
+if not os.path.exists(LOG_PATH):os.mkdir(LOG_PATH)
 
 class Mylog:
     def __init__(self):
         #日志文件命名
-        self.logname = os.path.join(logpath,'%s.log'%time.strftime('%Y-%m-%d %H-%M-%S'))
+        self.logname = os.path.join(LOG_PATH,'%s.log'%time.strftime('%Y-%m-%d %H-%M-%S'))
         self.logger = logging.getLogger()
         self.logger.setLevel(logging.INFO)
         #日志输出格式

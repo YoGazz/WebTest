@@ -14,6 +14,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from Common.logger import Mylog
+from Config.conf import SCREENSHOT_DIR
 
 
 """
@@ -53,17 +54,17 @@ class BasePage:
              1.图片名称:模块名_页面名称_操作名称_年-月-日_时分秒.png
              2.filepath=指的图片保存目录/model(页面功能名称)_当前时间到秒.png
         """
-        Projectpath = os.path.dirname(os.path.dirname(__file__))
-        screenpath = Projectpath + '/Screenshots/'
-        if not os.path.exists(screenpath):os.mkdir(screenpath)
+        # Projectpath = os.path.dirname(os.path.dirname(__file__))
+        # screenpath = Projectpath + '/Screenshots/'
+        if not os.path.exists(SCREENSHOT_DIR):os.mkdir(SCREENSHOT_DIR)
         rq = time.strftime('%Y-%m-%d %H-%M-%S')
-        screenname = screenpath + doc + rq + '.png'
+        screenname = SCREENSHOT_DIR + doc + rq + '.png'
         try:
             self.driver.get_screenshot_as_file(screenname)
             with open(screenname,mode='rb') as f:
                 file = f.read()
             allure.attach(file,doc,allure.attachment_type.PNG)
-            self.log.info(f'开始截图保存，保存路径{screenpath}')
+            self.log.info(f'开始截图保存，保存路径{SCREENSHOT_DIR}')
         except Exception as e:
             self.log.error(f'截图出现异常，{e}')
 

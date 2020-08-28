@@ -6,10 +6,12 @@
 import pytest
 import allure
 import os
+from Config.conf import XML_PATH
+from Config.conf import HTML_PATH
 
 
 if __name__ == '__main__':
-    args = ['-s', '--alluredir', './Report/xml']
+    args = ['-s', '--alluredir', XML_PATH]
     pytest.main(args)
-    os.system(f'cp environment.properties Report/xml/environment.properties')
-    os.system(f'allure generate ./Report/xml -o ./Report/html --clean')
+    os.system(f'cp environment.properties {XML_PATH}')
+    os.system(f'allure generate {XML_PATH} -o {HTML_PATH} --clean')
