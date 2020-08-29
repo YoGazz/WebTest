@@ -8,7 +8,7 @@ from Common.base import BasePage
 from selenium.webdriver.common.by import By
 
 class LoginPage(BasePage):
-    Doc = '登录模块--登录功能--'
+    Doc =  u'登录模块--登录功能--'
     user_ele = (By.CSS_SELECTOR,'#account')
     password_ele = (By.CSS_SELECTOR,'[name="password"]')
     submit_ele = (By.CSS_SELECTOR,'#submit')
