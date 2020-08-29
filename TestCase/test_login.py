@@ -22,7 +22,9 @@ class TestLogin:
     '''
     ready = ReadYaml('login.yaml')
     def setup(self):
-        self.driver = webdriver.Chrome()
+        opt = webdriver.ChromeOptions()
+        opt.set_headless()
+        self.driver = webdriver.Chrome(options=opt)
         self.driver.get(ini.url)
         self.loginzentao = LoginPage(self.driver)
 
@@ -40,13 +42,16 @@ class TestLogin:
     #     ('admin','Zbj2495550.')
     # ])
     @allure.severity('blocker')
-    @allure.story('输入用户名密码，登录')
+    @allure.story('输入正确的用户名密码，登录')
     @pytest.mark.parametrize('user,password',ready.get_yaml_data())
     def test_login(self,user,password):
         self.loginzentao.login(user,password)
-        result = self.loginzentao.login_result()
+        result = self.loginzentao.login_correct_result()
         print(f'获取到的结果是{result}')
         assert result
+
+
+
 
 if __name__ == '__main__':
     pytest.main('-q')

@@ -115,7 +115,7 @@ class BasePage:
             ele.send_keys(text)
         except:
             self.log.error('输入操作失败')
-            self.take_screenshot(doc)
+            self.save_screenshot(doc)
             raise
 
     #清除操作
@@ -126,7 +126,7 @@ class BasePage:
             ele.clear()
         except:
             self.log.error('清除操作元素失败')
-            self.take_screenshot(doc)
+            self.save_screenshot(doc)
             raise
 
     def click(self,locator,doc=''):
@@ -136,7 +136,7 @@ class BasePage:
             ele.click()
         except:
             self.log.error('点击元素操作失败')
-            self.take_screenshot(doc)
+            self.save_screenshot(doc)
             raise
 
 

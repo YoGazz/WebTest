@@ -46,7 +46,7 @@ class LoginPage(BasePage):
         self.set_name(user).set_password(password).keep_login().submit()
         return self
 
-    def login_result(self):
+    def login_correct_result(self):
         # self.log.info('获取登录结果')
         try:
             r = self.find(self.result_ele,doc=self.Doc).text
@@ -54,6 +54,15 @@ class LoginPage(BasePage):
             return r
         except:
             return False
+
+    # def login_faile_result(self):
+    #     try:
+    #         message = self.driver.switch_to_alert().text
+    #         self.driver.switch_to_alert().accept()
+    #         print(f'弹窗信息{message}')
+    #         return message
+    #     except:
+    #         return False
 
     def forget(self):
         self.forget_password()

@@ -1,7 +1,0 @@
-2020-08-29 00:29:54,816 - logger.py -  INFO - 测试模块--提交Bug功能--:查找元素:('xpath', '//*[@id="mainmenu"]/ul/li[4]/a')
-2020-08-29 00:29:55,882 - logger.py -  INFO - 测试模块--提交Bug功能--:点击元素('xpath', '//*[@id="mainmenu"]/ul/li[4]/a')
-2020-08-29 00:29:56,164 - logger.py -  INFO - 测试模块--提交Bug功能--:查找元素:('xpath', '//*[@id="modulemenu"]/ul/li[4]/a')
-2020-08-29 00:29:56,182 - logger.py -  INFO - 测试模块--提交Bug功能--:点击元素('xpath', '//*[@id="modulemenu"]/ul/li[4]/a')
-2020-08-29 00:29:56,441 - logger.py -  INFO - 测试模块--提交Bug功能--:查找元素:('css selector', '.btn btn-primary')
-2020-08-29 00:30:07,469 - logger.py -  ERROR - 查找元素失败
-2020-08-29 00:30:07,772 - logger.py -  INFO - 开始截图保存，保存路径/Users/zhangbijiang/Documents/MyStudy/ZenataoProject/Screenshots/

@@ -15,8 +15,12 @@ driver = None
 def drivers(request):
     global driver
     if driver is None:
-        driver = webdriver.Chrome()
-        # driver.maximize_window()
+        #设置selenium无界面模式
+        opt = webdriver.ChromeOptions()
+        opt.set_headless()
+        # 专门应对无头浏览器中不能最大化屏幕的方案
+        opt.add_argument("--window-size=1920,1050")
+        driver = webdriver.Chrome(options=opt)
 
     def fn():
         driver.quit()

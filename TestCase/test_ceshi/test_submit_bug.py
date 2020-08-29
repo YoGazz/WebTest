@@ -16,9 +16,9 @@ class TestSubmitBug:
         self.loginzentao.get_url(ini.url)
         self.loginzentao.login(user,password)
 
-    def test_submitbug(self,drivers,title='第二个bug',content='bug内容'):
+    def test_submitbug(self,drivers,title='第四个bug'):
         self.bug = BugPage(drivers)
-        self.bug.submit_bug(title,content)
-        result = self.bug.submitbug_result(content)
+        self.bug.submit_bug(title)
+        result = self.bug.submitbug_result(title)
         print(f'获取到的结果是{result}')
         assert result
