@@ -1,0 +1,9 @@
+2020-08-30 12:55:38,196 - logger.py -  INFO - 打开网页：http://58.87.64.140:8088/zentao/user-login.html
+2020-08-30 12:55:38,197 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '#account')
+2020-08-30 12:55:38,208 - logger.py -  INFO - 登录模块--登录功能--:元素('css selector', '#account')中输入admin
+2020-08-30 12:55:38,288 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '[name="password"]')
+2020-08-30 12:55:38,296 - logger.py -  INFO - 登录模块--登录功能--:元素('css selector', '[name="password"]')中输入Zbj2495550.
+2020-08-30 12:55:38,359 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '#keepLoginon')
+2020-08-30 12:55:38,370 - logger.py -  INFO - 登录模块--登录功能--:点击元素('css selector', '#keepLoginon')
+2020-08-30 12:55:38,400 - logger.py -  INFO - 登录模块--登录功能--:查找元素:('css selector', '#submit')
+2020-08-30 12:55:38,408 - logger.py -  INFO - 登录模块--登录功能--:点击元素('css selector', '#submit')

@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Aug 30 12:55:38 CST 2020","Sun Aug 30 12:55:42 CST 2020","3903","TestCase.test_ceshi","test_submit_bug","TestSubmitBug","","","test_submitbug",""
+"passed","Sun Aug 30 12:55:34 CST 2020","Sun Aug 30 12:55:35 CST 2020","1305","TestCase","test_login","TestLogin","","","test_login[admin-Zbj2495550.2]",""
+"passed","Sun Aug 30 12:55:30 CST 2020","Sun Aug 30 12:55:32 CST 2020","1311","TestCase","test_login","TestLogin","","","test_login[admin-Zbj2495550.1]",""
+"passed","Sun Aug 30 12:55:27 CST 2020","Sun Aug 30 12:55:28 CST 2020","1363","TestCase","test_login","TestLogin","","","test_login[admin-Zbj2495550.0]",""

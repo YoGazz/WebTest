@@ -1,0 +1,41 @@
+[ {
+  "uid" : "dfcfbfead9a15f24",
+  "name" : "test_submitbug",
+  "time" : {
+    "start" : 1598763338473,
+    "stop" : 1598763342376,
+    "duration" : 3903
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b06a8bfb9f4a9aa",
+  "name" : "test_login[admin-Zbj2495550.2]",
+  "time" : {
+    "start" : 1598763334532,
+    "stop" : 1598763335837,
+    "duration" : 1305
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "ab4481f0dbe29e3f",
+  "name" : "test_login[admin-Zbj2495550.1]",
+  "time" : {
+    "start" : 1598763330965,
+    "stop" : 1598763332276,
+    "duration" : 1311
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "1f8b51aabfd2abfc",
+  "name" : "test_login[admin-Zbj2495550.0]",
+  "time" : {
+    "start" : 1598763327023,
+    "stop" : 1598763328386,
+    "duration" : 1363
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]
