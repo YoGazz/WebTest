@@ -1,0 +1,12 @@
+2020-08-29 23:21:32,411 - logger.py -  INFO - 测试模块--提交Bug功能--:查找元素:('xpath', '//*[@id="mainmenu"]/ul/li[4]/a')
+2020-08-29 23:21:33,308 - logger.py -  INFO - 测试模块--提交Bug功能--:点击元素('xpath', '//*[@id="mainmenu"]/ul/li[4]/a')
+2020-08-29 23:21:33,448 - logger.py -  INFO - 测试模块--提交Bug功能--:查找元素:('xpath', '//*[@id="modulemenu"]/ul/li[2]/a')
+2020-08-29 23:21:33,458 - logger.py -  INFO - 测试模块--提交Bug功能--:点击元素('xpath', '//*[@id="modulemenu"]/ul/li[2]/a')
+2020-08-29 23:21:33,632 - logger.py -  INFO - 测试模块--提交Bug功能--:查找元素:('xpath', '//*[@id="createActionMenu"]/a')
+2020-08-29 23:21:33,649 - logger.py -  INFO - 测试模块--提交Bug功能--:点击元素('xpath', '//*[@id="createActionMenu"]/a')
+2020-08-29 23:21:34,100 - logger.py -  INFO - 测试模块--提交Bug功能--:查找元素:('css selector', '#module_chosen')
+2020-08-29 23:21:34,110 - logger.py -  INFO - 测试模块--提交Bug功能--:点击元素('css selector', '#module_chosen')
+2020-08-29 23:21:34,150 - logger.py -  INFO - 测试模块--提交Bug功能--:查找元素:('xpath', '//*[@id="module_chosen"]/div/ul/li[5]')
+2020-08-29 23:21:34,160 - logger.py -  INFO - 测试模块--提交Bug功能--:点击元素('xpath', '//*[@id="module_chosen"]/div/ul/li[5]')
+2020-08-29 23:21:44,175 - logger.py -  ERROR - 点击元素操作失败
+2020-08-29 23:21:44,398 - logger.py -  INFO - 开始截图保存，保存路径/Users/zhangbijiang/Documents/MyStudy/ZenataoProject/Screenshots/
