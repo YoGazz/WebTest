@@ -15,5 +15,5 @@ if __name__ == '__main__':
     # pytest.main(args)
     args = ['-s', '--alluredir', XML_PATH]
     pytest.main(args)
-    os.system(f'cp environment.properties {XML_PATH}')
-    os.system(f'allure generate {XML_PATH} -o {HTML_PATH} --clean')
+    # os.system(f'cp environment.properties {XML_PATH}')
+    # os.system(f'allure generate {XML_PATH} -o {HTML_PATH} --clean')
