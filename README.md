@@ -46,7 +46,7 @@
 - allure open
 
 
-### Python+Selenium+unittest+ddt(Page Object模式)
+### Python+Selenium+pytest+allure(Page Object模式)
 
 #### 为什么要搭建这个框架
 
